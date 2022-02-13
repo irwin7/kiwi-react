@@ -1,0 +1,40 @@
+.authoris{
+  display: flex;
+  align-items: center;
+}
+.authoris__form{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 25px;
+}
+.authoris__img{
+  height: 550px;
+  width: 50%;
+  object-fit: cover;
+  padding-left: 25px;
+}
+
+.authoris__input{
+  padding: 20px 26px;
+  padding-right: 120px;
+  background: #fff;
+  border: 1px solid rgba(151, 151, 151, 0.482592);
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  font-family: Roboto;
+}
+
+.authoris__submit-btn{
+  padding: 20px 140px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #fff;
+  border: none;
+  background: #41D481;
+  border-radius: 5px;
+  cursor: pointer;
+}

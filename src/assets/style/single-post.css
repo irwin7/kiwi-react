@@ -1,0 +1,113 @@
+.post__hero{
+  display: flex;
+}
+.zzz .home__posts-list{
+  gap: 25px;
+}
+.post__titles{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  color: #414D6A;
+  margin-bottom: 16px;
+}
+.post__images{
+  height: 456px;
+  width: 50%;
+}
+.post__img{
+  height: 100%;
+}
+.post__descriptions{
+  width: 50%;
+  padding-left: 30px;
+}
+.post__hero .post__prices{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: -0.00016833px;
+  color: #444444;
+  margin-bottom: 10px;
+}
+.post__loaction{
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -5.89154e-05px;
+  text-decoration-line: underline;
+  color: #4E72CA;
+  margin-bottom: 15px;
+}
+.post__phone{
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -6.73319e-05px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  background: #65E99F;
+  border-radius: 18.5px;
+  width: 329px;
+  height: 40px;
+  margin-bottom: 7px;
+  padding-left: 25px;
+}
+.post__shown{
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  background: #41D481;
+  border-radius: 18.5px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 22px;
+}
+.post__phone:last-child{
+  margin-bottom: 17px;
+}
+.post__author{
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -3.17237e-05px;
+  color: #000;
+  margin-bottom: 25px;
+}
+.post__author-name{
+  font-weight: bold;
+  letter-spacing: -4.13787e-05px;
+  text-decoration-line: underline;
+  color: #2AAE63;  
+  cursor: pointer;
+}
+.post__btn{
+  font-family: Roboto;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -5.89155e-05px;
+  color: #fff;
+  padding: 16px 30px;
+  background: #304FFF;
+  border-radius: 23.5px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+.post__decr{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: -3.85217e-05px;
+  color: #414D6A;
+}

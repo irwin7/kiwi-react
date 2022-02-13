@@ -1,0 +1,37 @@
+.home__sorting{
+  padding-top: 30px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #D5D5D5;
+}
+.home__sorting-title{
+  position: relative;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #9B9B9B;  
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  padding-bottom: 12px;
+}
+.home__sorting-title:not(:last-child){
+  margin-right: 68px;
+}
+.home__sorting-title.active{
+  font-weight: 900;
+  color: #4E72CA;
+}
+.home__sorting-title.active::after{
+  content: "";
+  display: inline-block;
+  width: 75%;
+  height: 2px;
+  background-color: #4E72CA;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}

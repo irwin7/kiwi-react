@@ -1,0 +1,53 @@
+.home__sliding{
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background: rgba(182, 202, 251, 0.159986);
+  box-shadow: inset 0px 21px 13px rgba(182, 202, 251, 0.225402);
+}
+.sliding-ads{
+  width: 100%;
+}
+.sliding-ads__item{
+  width: 360px !important;
+  height: 240px;
+}
+.sliding-ads__item-inner{
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 24px 31px;
+  cursor: pointer;
+}
+.slidin-ads__title{
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 26px;
+  color: #000;
+  max-width: 200px;
+  margin-bottom: 77px;
+}
+.slidin-ads__price{
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #4A4A4A;
+}
+.home__sliding .slick-slider{
+  width: 100%;
+}
+.home__sliding .slick-list{
+  overflow: hidden;
+  width: 100%;
+}
+.home__sliding .slick-track{
+  display: flex;
+  width: 100%;
+}
+.home__sliding .slick-slide{
+  display: inline-block !important;
+  width: 360px !important;
+  margin-right: 20px !important;
+}

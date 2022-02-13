@@ -1,0 +1,72 @@
+.home__posts-list{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 26px;
+  row-gap: 37px;
+  margin-bottom: 27px;
+}
+.home__posts-list .post{
+  width: 23.25%;
+  padding-left: 5px;
+  cursor: pointer;
+}
+.post__image{
+  width: 262px;
+  height: 190px;
+  object-fit: contain;
+  border-radius: 5px;
+}
+.home__posts-list .post__title{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;  
+  margin-bottom: 5px;
+  padding-top: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.post__desc{
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4A4A4A;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 70%;
+  margin-bottom: 5px;
+}
+.post__price{
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;
+}
+.posts__show-div{
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(182, 202, 251, 0.606827);
+}
+.posts__show{
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #4E72CA;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding-right: 15px;
+  background-image: url("../imgs/arrow-down-blyu.svg");
+  background-size: 10px;
+  background-repeat: no-repeat;
+  background-position: top 50% right 0;
+}
